@@ -33,7 +33,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>RELEASE</version>
+                <version>3.8</version>
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
