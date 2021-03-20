@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 public class PriorityQueueTest {
     public static Stream<Arguments> stringIntAndListProvider() {
         return Stream.of(
-          Arguments.arguments(new Integer[] {1, 3, 2, 4}, new Integer[] {1, 2, 3, 4}),
+          Arguments.arguments(new Integer[] {1, 3, 2, 4}, new Integer[] {5, 2, 3, 4}),
           Arguments.arguments(new Integer[] {5, 3, 6, 8}, new Integer[] {3, 5, 6, 8}),
           Arguments.arguments(new Integer[] {7, 9, 2, 3, 8, 0}, new Integer[] {0, 2, 3, 7, 8, 9}),
           Arguments.arguments(new Integer[] {4, 6, 3}, new Integer[] {3, 4, 6}),
